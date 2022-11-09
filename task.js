@@ -9,8 +9,8 @@ function solveEquation(a, b, c) {
     } if (Discriminant = 0) {
         console.log( `Root 1 ${root}`);
     } else {
-        arr.push(-b + Math.sqrt(d) )/(2*a); 
-        arr.push(-b - Math.sqrt(d) )/(2*a);
+        arr.push(-b + Math.sqrt(Discriminant) )/(2*a); 
+        arr.push(-b - Math.sqrt(Discriminant) )/(2*a);
     }
     return arr; // array
   }
